@@ -1,0 +1,6 @@
+## en este archivo estaran todas las variables de entorno cambiarlas del archivo
+## do not put this file under version control!
+##antes de correr el docker generar una secret key desde esta pagina https://miniwebtool.com/es/django-secret-key-generator/
+SECRET_KEY='tu secret key'
+## el debug en desarrollo deve estar en True para pasar a produccion  queda en false
+DEBUG=True
