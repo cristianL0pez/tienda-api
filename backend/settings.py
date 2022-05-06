@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     'apps.home',
+    'ninja'
     
 ]
 
