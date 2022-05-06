@@ -29,7 +29,6 @@ def add(request, a: int, b: int):
 urlpatterns = [
     #api urls
     path("api/", api.urls),
-    
     path('admin/', admin.site.urls),          # Django admin route
     path("", include("apps.authentication.urls")), # Auth routes - login / register
     path("", include("apps.home.urls")),           
