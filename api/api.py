@@ -1,12 +1,10 @@
-from ninja import NinjaAPI 
+from typing import List, Optional
+from ninja import NinjaAPI
+
 
 api = NinjaAPI()
 
+@api.get("/test")
+def test(request):
+    return {'message': 'success!'}
 
-@api.get("/hello")
-def hello(request):
-    return "Hello world"
-
-@api.get("/clientes")
-def clientes(request):
-    return "Clientes"
