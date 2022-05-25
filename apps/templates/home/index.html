@@ -4,43 +4,44 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<!-- Primary Meta Tags -->
-<title>
-    tienda-api
-</title>
+    <!-- Primary Meta Tags -->
+    <title>
+        tienda-api
+    </title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="author" content="cristian lopez">
-<meta name="description" content="api que permite obtebtener datos ficticios de clientes proveedores y productos.">
-<link rel="canonical" href="*">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="cristian lopez">
+    <meta name="description" content="api que permite obtebtener datos ficticios de clientes proveedores y productos.">
+    <link rel="canonical" href="*">
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
 
-<!-- Favicon -->
-<link rel="apple-touch-icon" sizes="120x120" href="/static/assets/img/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/static/assets/img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/static/assets/img/favicon/favicon-16x16.png">
-<link rel="manifest" href="/static/assets/img/favicon/site.webmanifest">
-<link rel="mask-icon" href="/static/assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/static/assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 
-<!-- Fontawesome -->
-<link type="text/css" href="/static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link type="text/css" href="/static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-<!-- Pixel CSS -->
-<link type="text/css" href="/static/assets/css/pixel.css" rel="stylesheet">
+    <!-- Pixel CSS -->
+    <link type="text/css" href="/static/assets/css/pixel.css" rel="stylesheet">
 
 </head>
+
 <body>
     
     {% include 'includes/navigation.html' %}
-
+    
     <main>
-
+        
         {% include 'includes/preloader.html' %}
-
+        
         <!-- Hero -->
         <section class="section-header overflow-hidden pt-7 pt-lg-8 pb-9 pb-lg-12 bg-primary text-white">
             <div class="container">
@@ -48,152 +49,71 @@
                     <div class="col-12 text-center">
                         <div class="bootstrap-big-icon d-none d-lg-block">
                             <svg xmlns="http://www.w3.org/2000/svg" width="700" height="622" class="d-block my-1"
-                                viewBox="0 0 118 94" role="img">
-                                <title>Tienda-api</title>
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-                                    fill="currentColor"></path>
-                            </svg>
-                        </div>
-                        <h1 class="fw-bolder display-2">
-                            TIENDA-API
-                        </h1>
-                        <h2 class="lead fw-normal text-muted mb-4 px-lg-10">
-                            api para manejo de datos ficticios de clientes proveedores y productos.
-                        </h2>
-                        <!-- Button Modal -->
-                        <!-- <div class="d-flex justify-content-center align-items-center mb-5">
-                            <a href="#components" class="btn btn-tertiary mb-3 mt-2 me-2 me-md-3 animate-up-2"><span
-                                    class="fas fa-th-large me-2"></span> <span class="d-none d-md-inline">Explore
-                                    components</span> <span class="d-md-none">Components</span></a>
-                        </div> -->
-                        <div class="d-flex justify-content-center flex-column mb-6 mb-lg-5">
-                            <a href="*" class="d-block text-center mx-auto" target="_blank">
-                                <img src="/static/assets/img/themesberg.svg" class="d-block mx-auto mb-3" height="25"
+                            viewBox="0 0 118 94" role="img">
+                            <title>Tienda-api</title>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                            fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <h1 class="fw-bolder display-2">
+                        TIENDA-API
+                    </h1>
+                    <h2 class="lead fw-normal text-muted mb-4 px-lg-10">
+                        api para manejo de datos ficticios de clientes proveedores y productos.
+                    </h2>
+                    <!-- Button Modal -->
+                    <!-- <div class="d-flex justify-content-center align-items-center mb-5">
+                        <a href="#components" class="btn btn-tertiary mb-3 mt-2 me-2 me-md-3 animate-up-2"><span
+                            class="fas fa-th-large me-2"></span> <span class="d-none d-md-inline">Explore
+                                components</span> <span class="d-md-none">Components</span></a>
+                            </div> -->
+                            <div class="d-flex justify-content-center flex-column mb-6 mb-lg-5">
+                                <a href="*" class="d-block text-center mx-auto" target="_blank">
+                                    <img src="/static/assets/img/themesberg.svg" class="d-block mx-auto mb-3" height="25"
                                     width="25" alt="*">
-                                <span class="text-muted font-small">
-                                    &copy; tienda-api - coded by cristianl0pez.
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- caracteristicas  -->
-            <div class="section section-lg bg-primary-app pb-0">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-md-8 text-center mb-4 mb-lg-6">
-                            <h2 class="display-2 fw-bold">
-                                Características Generales API
-                            </h2>
-                            <p class="lead">Nuestra solución permite acceder a datos ficticios de una tienda online.</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6 col-lg-4 text-center">
-                            <div class="card border-gray-300 mb-4">
-                                <div class="card-body py-5">
-                                    <img src="/static/assets/img/clients/airbnb.svg" class="img-fluid image-sm" alt="Airbnb logo">
-                                    <span class="d-block mt-3">
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
+                                    <span class="text-muted font-small">
+                                        &copy; tienda-api - coded by cristianl0pez.
                                     </span>
-                                    <p class="card-text py-4 mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary btn-sm">See story</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 text-center">
-                            <div class="card border-gray-300 mb-4">
-                                <div class="card-body py-5">
-                                    <img src="/static/assets/img/clients/paypal.svg" class="img-fluid image-sm" alt="Paypal logo">
-                                    <span class="d-block mt-3">
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                    </span>
-                                    <p class="card-text py-4 mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary btn-sm">See story</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 text-center">
-                            <div class="card border-gray-300 mb-4">
-                                <div class="card-body py-5">
-                                    <img src="/static/assets/img/clients/ebay.svg" class="img-fluid image-sm" alt="Ebay logo">
-                                    <span class="d-block mt-3">
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                    </span>
-                                    <p class="card-text py-4 mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary btn-sm">See story</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 text-center">
-                            <div class="card border-gray-300 mb-4">
-                                <div class="card-body py-5">
-                                    <img src="/static/assets/img/clients/forbes.svg" class="img-fluid image-sm" alt="Forbes logo">
-                                    <span class="d-block mt-3">
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                    </span>
-                                    <p class="card-text py-4 mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary btn-sm">See story</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 text-center">
-                            <div class="card border-gray-300 mb-4">
-                                <div class="card-body py-5">
-                                    <img src="/static/assets/img/clients/corsair.svg" class="img-fluid image-sm" alt="Corsair Logo">
-                                    <span class="d-block mt-3">
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                    </span>
-                                    <p class="card-text py-4 mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary btn-sm">See story</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 text-center">
-                            <div class="card border-gray-300 mb-4">
-                                <div class="card-body py-5">
-                                    <img src="/static/assets/img/clients/docker.svg" class="img-fluid image-sm" alt="Docker Logo">
-                                    <span class="d-block mt-3">
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                        <span class="star fas fa-star text-warning"></span>
-                                    </span>
-                                    <p class="card-text py-4 mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary btn-sm">See story</a>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--- End caracteristicas api -->
+                <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBxVWrp" data-user="cristianl0pez" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/cristianl0pez/pen/qBxVWrp">
+                    api bootcamp</a> by Cristian López (<a href="https://codepen.io/cristianl0pez">@cristianl0pez</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                  </p>
+                  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
             
+                
+                
+                
+            {% for x in clients %}
+        {% comment %} <div class="mx-auto" style="width: 200px;"> {% endcomment %}
+        <div class="mx-auto">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{x.image}}">
+                <div class="card-body">
+                  <h5 class="card-title">{{x.first_name}} {{x.last_name}}</h5>
+                  <p class="card-text"></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">{{x.mail}}</li>
+                  <li class="list-group-item">{{x.phone}}</li>
+                  <li class="list-group-item">{{x.birthdate}}</li>
+                </ul>
+              </div>
+        </div>
+            {% endfor %}
+                
+     
+         
+                
+         
+           
+
 
     </main>
 
@@ -202,4 +122,5 @@
     {% include 'includes/scripts.html' %}
 
 </body>
+
 </html>

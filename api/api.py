@@ -174,7 +174,7 @@ def update_client(request, product_id: int, payload: ProductIn):
 
 #endpoint para eliminar un producto
 @api.delete("/product/{product_id}", auth=django_auth, tags=["product"])
-def delete_client(request, client_id: int):
+def delete_client(request, product_id: int):
     product = get_object_or_404(Product, id= product_id)
     product.delete()
     return {"success": True}
@@ -194,7 +194,7 @@ def create_supplier(request, payload: SupplierIn):
 
 #endpoint para obtener un producto por id
 @api.get("/supplier/{supplier_id}", response=SupplierOut,auth=django_auth, tags=["supplier"])
-def get_product(request,product_id: int):
+def get_product(request,supplier_id: int):
     supplier = get_object_or_404(Product, id=product_id)
     return supplier
 
