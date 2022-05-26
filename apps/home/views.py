@@ -1,6 +1,8 @@
 # -*- encoding: utf-8 -*-
 
+from email.mime import image
 from http import client
+from unicodedata import name
 from django import template
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse, HttpResponseRedirect
@@ -13,7 +15,7 @@ from api.models import Client
 def index(request):
     context = {
         'segment': 'index',
-        'clients': Client.objects.all().values()
+        'x': Client.objects.get(first_name='cristian', last_name='lopez'),
 
         }
 
@@ -21,9 +23,15 @@ def index(request):
     return HttpResponse(html_template.render(context, request))
 
 
+    html_template = loader.get_template('home/index.html')
+    return HttpResponse(html_template.render(context, request))
+
+
 @login_required(login_url="/login/")
 def pages(request):
-    context = {}
+    context = {
+        'clients': Client.objects.all().values(),
+    }
     # All resource paths end in .html.
     # Pick out the html file name from the url. And load that template.
     try:
