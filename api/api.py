@@ -1,4 +1,4 @@
-from itertools import product
+
 from django.shortcuts import get_object_or_404
 from ninja import Schema
 from ninja import NinjaAPI,  File

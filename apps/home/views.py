@@ -11,11 +11,13 @@ from django.urls import reverse
 from api.models import Client
 
 
+
 @login_required(login_url="/login/")
 def index(request):
     context = {
         'segment': 'index',
         'x': Client.objects.get(first_name='cristian', last_name='lopez'),
+        
 
         }
 
