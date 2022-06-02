@@ -1,0 +1,44 @@
+[
+{
+  "model": "api.client",
+  "pk": 1,
+  "fields": {
+    "first_name": "Arthur",
+    "last_name": "Wilson",
+    "mail": "arthur.wilson@example.com",
+    "birthdate": "2022-05-25",
+    "address": "Springfield",
+    "phone": "955438273",
+    "password": "1234",
+    "image": "https://randomuser.me/api/portraits/med/men/84.jpg"
+  }
+},
+{
+  "model": "api.client",
+  "pk": 2,
+  "fields": {
+    "first_name": "cristian",
+    "last_name": "lopez",
+    "mail": "cristianlopezvalpo@gmailcom",
+    "birthdate": "1987-04-30",
+    "address": "cabriteria",
+    "phone": "920506678",
+    "password": "1234",
+    "image": "https://cutt.ly/FH1mD5x"
+  }
+},
+{
+  "model": "api.client",
+  "pk": 3,
+  "fields": {
+    "first_name": "Julie",
+    "last_name": "Ward",
+    "mail": "julie.ward@example.com",
+    "birthdate": "2022-05-25",
+    "address": "Station Road",
+    "phone": "987654322",
+    "password": "1234",
+    "image": "https://randomuser.me/api/portraits/med/women/22.jpg"
+  }
+}
+]

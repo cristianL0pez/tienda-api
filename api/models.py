@@ -16,8 +16,6 @@ class Client(models.Model):
 
    
 
-
-
 #modelo producto
 class Product(models.Model):
     name = models.CharField(max_length=100)
