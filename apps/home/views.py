@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-from email.mime import image
+
 from http import client
 from unicodedata import name
 from django import template
@@ -9,6 +9,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
 from django.urls import reverse
 from api.models import Client
+from api.dataclient import clients
 
 
 
@@ -32,7 +33,7 @@ def index(request):
 @login_required(login_url="/login/")
 def pages(request):
     context = {
-        'clients': Client.objects.all().values(),
+        'clients': clients,
     }
     # All resource paths end in .html.
     # Pick out the html file name from the url. And load that template.
