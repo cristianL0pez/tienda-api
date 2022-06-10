@@ -10,7 +10,7 @@ from django.template import loader
 from django.urls import reverse
 from api.models import Client
 from api.dataclient import clients
-
+from api.dataproducts import products
 
 
 @login_required(login_url="/login/")
@@ -34,6 +34,7 @@ def index(request):
 def pages(request):
     context = {
         'clients': clients,
+        'products': products,
     }
     # All resource paths end in .html.
     # Pick out the html file name from the url. And load that template.
