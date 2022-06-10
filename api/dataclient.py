@@ -12,7 +12,7 @@ for user in users:
     last_name = user['name']['last']
     mail = user['email']
     birthdate = user['dob']['date']
-    address = user['location']['street']
+    address = user['location']['city']
     phone = user['phone']
     password = user['login']['password']
     image = user['picture']['large']
