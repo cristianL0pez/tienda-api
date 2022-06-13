@@ -29,7 +29,7 @@ docker-compose copy.yml por docker-compose.yml
 .env copy por .env
 ```
 
-1. luego tendrás que  crear una secret key al proyecto ya que por seguridad no posee una secret te dejo una pagina para crear una secret  y deberás ponerla en el  .env  
+1.luego tendrás que  crear una secret key al proyecto ya que por seguridad no posee una secret te dejo una pagina para crear una secret  y deberás ponerla en el  .env  
 
 ```
 ## en este archivo estaran todas las variables de entorno cambiarlas del archivo
