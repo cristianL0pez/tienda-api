@@ -4,7 +4,7 @@ proyecto de api con datos de clientes productos y proveedores creado con las sig
 
 1. Django
 2. Django-ninja
-3. docker compose 
+3. docker-compose 
 4. postgres
 5. nginx
 
