@@ -2,11 +2,11 @@
 
 proyecto de api con datos de clientes productos y proveedores creado con las siguientes tecnologías
 
-1. Django
-2. Django-ninja
-3. docker-compose 
-4. postgres
-5. nginx
+1.Django
+2.Django-ninja
+3.docker-compose 
+4.postgres
+5.nginx
 
 para poder levantar este proyecto en tu maquina debes tener instalado docker compose 
 
